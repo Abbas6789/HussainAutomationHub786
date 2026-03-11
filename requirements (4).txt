@@ -1,0 +1,13 @@
+# ================================================================
+#  requirements.txt — SocioSaas Pro
+#  Developer: Ghulam Hussain
+#
+#  streamlit-gsheets-connection  provides  st.connection("gsheets")
+#  cryptography                  is used by firebase_utils.py for JWT
+#  pandas                        is used by the gsheets connector
+# ================================================================
+
+streamlit>=1.35.0
+streamlit-gsheets-connection>=0.0.5
+pandas>=2.0.0
+cryptography>=41.0.0
